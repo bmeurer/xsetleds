@@ -1,0 +1,78 @@
+.\"                              hey, Emacs:   -*- nroff -*-
+.\" xsetleds is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; see the file COPYING.  If not, write to
+.\" the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.TH XSETLEDS 1 "January 29, 2002"
+
+.SH NAME
+xsetleds \- xsetleds reports and changes the led settings of a X display.
+.SH SYNOPSIS
+.B xsetleds
+.BI [ options ]
+..IX "xsetleds command" "" "\fLxsetleds\fR command"
+
+.SH DESCRIPTION
+.B xsetleds
+reports and changes the keyboard led states of a X display. It changes the
+indicatet led states, leaving the other led states untouched and optionally
+print the current led states.
+.PP
+.B NOTE:
+When compiled without XKB support, you can only toggle keyboard led states, but
+don't clear or set them. Also, you're unable to print current led states
+information.
+
+.SH OPTIONS
+.TP
+.B \-version
+Show version of program.
+.TP
+.B \-help
+Show summary of options.
+.TP
+.B \-show
+Print the current led stats.
+.TP
+.B \-display displayname
+Connect to X server specified by \fBdisplayname\fP instead of X server specified
+by the environment variable $DISPLAY.
+.TP
+.I \-/\+caps
+Clear, set or toggle CapsLock.
+.TP
+.I \-/\+num
+Clear, set or toggle NumLock.
+.TP
+.I \-/\+scroll
+Clear, set or toggle ScrollLock.
+
+.SH EXAMPLE
+.PP
+You might use
+.B xsetleds
+to set the initial state of CapsLock, NumLock and ScrollLock on X startup,
+e.g. by adding the following peace of code to your ~/.xinitrc file:
+.PP
+.RS
+xsetleds +num +caps -scroll
+.RE
+
+.SH BUGS
+No known bugs.
+
+.SH "SEE ALSO"
+.BR setleds(1)
+
+.SH AUTHOR
+Benedikt Meurer <bmeurer@fwdn.de>.

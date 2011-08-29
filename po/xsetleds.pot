@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-01-29 22:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. NOTE: this should never be reached. But if so, this is caused
+#. * by a programming fault!
+#.
+#: src/xsetleds.c:84
+#, c-format
+msgid "keycode: unknown key '%s'. this is a bug, please report it."
+msgstr ""
+
+#: src/xsetleds.c:98
+msgid "error while sending fake key events"
+msgstr ""
+
+#: src/xsetleds.c:112
+msgid "error in reading keyboard indicator states"
+msgstr ""
+
+#: src/xsetleds.c:126
+msgid "setting a led is only supported if "
+msgstr ""
+
+#: src/xsetleds.c:127 src/xsetleds.c:140 src/xsetleds.c:302
+msgid " is compiled with XKB support."
+msgstr ""
+
+#: src/xsetleds.c:139
+msgid "clearing a led is only supported if "
+msgstr ""
+
+#: src/xsetleds.c:197
+#, c-format
+msgid "bad command line option \"%s\""
+msgstr ""
+
+#: src/xsetleds.c:221
+#, c-format
+msgid "cannot open display \"%s\""
+msgstr ""
+
+#: src/xsetleds.c:251
+#, c-format
+msgid ""
+"usage: %s [-version] [-help] [-show] [-display displayname] [[+/-]caps]\n"
+"    [[+/-]num] [[+/-]scroll]\n"
+"\n"
+"Type %s -help for a full description.\n"
+"\n"
+msgstr ""
+
+#: src/xsetleds.c:266
+#, c-format
+msgid ""
+"usage:\n"
+"   %s [options ...]\n"
+"\n"
+"where options include:\n"
+"    -version                     print the version number\n"
+"    -help                        print this message\n"
+"    -show                        print the current led states\n"
+"    -display displayname         X server to connect to\n"
+"    +/-caps                      Set/clear/toggle Caps Lock\n"
+"    +/-num                       Set/clear/toggle Num Lock\n"
+"    +/-scroll                    Set/clear/toggle Scroll Lock\n"
+"\n"
+"Note, that clearing, setting and showing the states of the leds is only\n"
+"avaiable if %s is compiled with XKB support.\n"
+"\n"
+msgstr ""
+
+#: src/xsetleds.c:292
+msgid "current states: "
+msgstr ""
+
+#: src/xsetleds.c:296
+msgid " on"
+msgstr ""
+
+#: src/xsetleds.c:296
+msgid "off"
+msgstr ""
+
+#: src/xsetleds.c:301
+msgid "showing the led states is only possible if "
+msgstr ""
+
+#: src/utils.c:74
+#, c-format
+msgid "%s (warning): "
+msgstr ""

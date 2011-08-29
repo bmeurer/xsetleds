@@ -1,0 +1,24 @@
+Begin3
+Title:		xsetleds
+Version:	@VERSION@
+Entered-date:	@ISODATE@
+Description:	xsetleds reports and changes the keyboard led states of  a
+       X  display.  It  changes the indicatet led states, leaving
+       the other led states untouched and  optionally  print  the
+       current led states.
+       NOTE: When compiled without XKB support, you can only tog­
+       gle keyboard led states, but  don't  clear  or  set  them.
+       Also,  you're  unable to print current led states informa­
+       tion.
+		
+Keywords:	keyboard leds X11 xsetleds setleds
+Author: 	bmeurer@fwdn.de (Benedikt Meurer)
+Maintained-by:	bmeurer@fwdn.de (Benedikt Meurer)
+Primary-site:	www.fwdn.de projects/xsetleds/
+		31k xsetleds-@VERSION@.tar.gz
+		500  xsetleds.lsm
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy:	GNU copyleft
+End

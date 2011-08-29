@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xsetleds 0.1.2\n"
+"POT-Creation-Date: 2002-01-29 22:52+0100\n"
+"PO-Revision-Date: 2002-02-21 12:80+0600\n"
+"Last-Translator: Luis Rodrigo Gallardo Cruz <lgallardo@computacion.cs."
+"cinvestav.mx>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. NOTE: this should never be reached. But if so, this is caused
+#. * by a programming fault!
+#.
+#: src/xsetleds.c:84
+#, c-format
+msgid "keycode: unknown key '%s'. this is a bug, please report it."
+msgstr ""
+"keycode: Tecla desconocida: '%s'. Esto es un error, por favor reportelo."
+
+#: src/xsetleds.c:98
+msgid "error while sending fake key events"
+msgstr "error al enviar eventos de tecla falsos"
+
+#: src/xsetleds.c:112
+msgid "error in reading keyboard indicator states"
+msgstr "error al leer los indicadores de estado del teclado"
+
+#: src/xsetleds.c:126
+msgid "setting a led is only supported if "
+msgstr "solo se puede encender un indicador si "
+
+#: src/xsetleds.c:127 src/xsetleds.c:140 src/xsetleds.c:302
+msgid " is compiled with XKB support."
+msgstr " fué compilado con soporte para XKB."
+
+#: src/xsetleds.c:139
+msgid "clearing a led is only supported if "
+msgstr "solo se puede apagar un indicador si "
+
+#: src/xsetleds.c:197
+#, c-format
+msgid "bad command line option \"%s\""
+msgstr "opción de linea de comandos erronea \"%s\""
+
+#: src/xsetleds.c:221
+#, c-format
+msgid "cannot open display \"%s\""
+msgstr "no puedo abrir la pantalla \"%s\""
+
+#: src/xsetleds.c:251
+#, c-format
+msgid ""
+"usage: %s [-version] [-help] [-show] [-display displayname] [[+/-]caps]\n"
+"    [[+/-]num] [[+/-]scroll]\n"
+"\n"
+"Type %s -help for a full description.\n"
+"\n"
+msgstr ""
+"uso: %s [-version] [-help] [-show] [-display nombre] [[+/-]caps]\n"
+"    [[+/-]num] [[+/-]scroll]\n"
+"\n"
+"use %s -help para una descripción completa.\n"
+"\n"
+
+#: src/xsetleds.c:266
+#, c-format
+msgid ""
+"usage:\n"
+"   %s [options ...]\n"
+"\n"
+"where options include:\n"
+"    -version                     print the version number\n"
+"    -help                        print this message\n"
+"    -show                        print the current led states\n"
+"    -display displayname         X server to connect to\n"
+"    +/-caps                      Set/clear/toggle Caps Lock\n"
+"    +/-num                       Set/clear/toggle Num Lock\n"
+"    +/-scroll                    Set/clear/toggle Scroll Lock\n"
+"\n"
+"Note, that clearing, setting and showing the states of the leds is only\n"
+"avaiable if %s is compiled with XKB support.\n"
+"\n"
+msgstr ""
+"uso:\n"
+"   %s [opciones ...]\n"
+"\n"
+"las opciones incluyen:\n"
+"    -version            imprime el número de version\n"
+"    -help               imprime este mensaje\n"
+"    -show               muestra los estados actuales de los indicadores\n"
+"    -display nombre     servidor X al cual conectar\n"
+"    +/-caps             enciende/apaga/conmuta Caps Lock\n"
+"    +/-num              enciende/apaga/conmuta Num Lock\n"
+"    +/-scroll           enciende/apaga/conmuta Scroll Lock\n"
+"\n"
+"Notese que encender, apagar y mostrar los estados de los indicadores solo\n"
+"es posible si %s fué compilado con soporte para XKB.\n"
+"\n"
+
+#: src/xsetleds.c:292
+msgid "current states: "
+msgstr "estados actuales: "
+
+#: src/xsetleds.c:296
+msgid " on"
+msgstr " encendido"
+
+#: src/xsetleds.c:296
+msgid "off"
+msgstr " apagado"
+
+#: src/xsetleds.c:301
+msgid "showing the led states is only possible if "
+msgstr "mostrar los estados de los indicadores solo es posible si "
+
+#: src/utils.c:74
+#, c-format
+msgid "%s (warning): "
+msgstr "%s (advertencia): "

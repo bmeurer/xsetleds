@@ -1,0 +1,31 @@
+This is the README file for xsetleds version 0.1.x.
+
+To compile, you just need the standard make+gcc+glibc suite and in
+addition the X11 development files, including the header files and
+the libraries. These files are most packaged into something called
+xlibs-dev or similar. If your operating system vendor forget to include
+X11, you can use the open source implementation XFree86. You can get
+it from:
+
+	http://www.xfree86.org/
+
+This package was mainly tested for glibc >= 2.1 on Debian GNU/Linux,
+but it should also compile well with libc5.
+
+In addition, xsetleds use the Xkb extension to X11, so be sure, this
+is available on your system.
+
+To compile and install this package:
+
+1) unpack the downloaded tarball
+
+2) run "./configure --help" to look for configuration parameters
+
+3) run "./configure" with the chosen options
+
+3) invoke "make" and "make install".
+
+
+Report any problems with this package to: Benedikt Meurer <bmeurer@fwdn.de>
+
+January 27th 2002.
