@@ -444,7 +444,7 @@ Sample Output
        -?, --help                 Give this help list
        -V, --version              Print program version
      
-     Report bugs to Benedikt Meurer <bmeurer@fwdn.de>.
+     Report bugs to Benedikt Meurer <benedikt.meurer@googlemail.com>.
 
 
 File: xsetleds.info,  Node: Invoking xsetleds,  Next: Problems,  Prev: Sample,  Up: Top
@@ -478,13 +478,13 @@ Reporting Bugs
 **************
 
    If you find a bug in `xsetleds', please send electronic mail to
-<bmeurer@fwdn.de>.  Include the version number, which you can find by
+<benedikt.meurer@googlemail.com>.  Include the version number, which you can find by
 running `xsetleds --version'.  Also include in your message the output
 that the program produced and the output you expected.
 
    If you have other questions, comments or suggestions about
 `xsetleds', contact the author via electronic mail to
-<bmeurer@fwdn.de>.  The author will try to help you out, although he
+<benedikt.meurer@googlemail.com>.  The author will try to help you out, although he
 may not have time to fix your problems.
 
 

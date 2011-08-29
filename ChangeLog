@@ -1,10 +1,10 @@
-2002-02-21  Benedikt Meurer  <bmeurer@fwdn.de>
+2002-02-21  Benedikt Meurer  <benedikt.meurer@googlemail.com>
 
 	* increased version to 0.1.3
 	* still no known bugs
 	* added spanish translation (thanks to Rodrigo Gallardo)
 
-2002-01-29  Benedikt Meurer  <bmeurer@fwdn.de>
+2002-01-29  Benedikt Meurer  <benedikt.meurer@googlemail.com>
 
 	* increased version to 0.1.2
 	* rewritten the argument parsing; added argument -show
@@ -12,14 +12,14 @@
 	* changed the commandline options to get an easier handling
 	* updatet the manual page
 
-2002-01-28  Benedikt Meurer  <bmeurer@fwdn.de>
+2002-01-28  Benedikt Meurer  <benedikt.meurer@googlemail.com>
 
 	* increase version to 0.1.1
 	* configure.in: add additional checks for installed X11 libraries
 	* make use of XKB optional and allow compilation without XKB
 	* utils.c: added warning() and moved error() here
 
-2002-01-27  Benedikt Meurer  <bmeurer@fwdn.de>
+2002-01-27  Benedikt Meurer  <benedikt.meurer@googlemail.com>
 
 	* xsetleds: initial version.
 

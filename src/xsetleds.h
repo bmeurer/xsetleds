@@ -59,7 +59,7 @@
 
 
 #define VERSION_STRING	PACKAGE " " VERSION	" - " \
-		"Copyright (C) 2002 Benedikt Meurer <bmeurer@fwdn.de>\n"
+		"Copyright (C) 2002 Benedikt Meurer <benedikt.meurer@googlemail.com>\n"
 
 
 /* defined in xsetleds.c */

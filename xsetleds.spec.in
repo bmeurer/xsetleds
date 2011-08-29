@@ -1,6 +1,6 @@
 # xsetleds.spec
 #
-# Copyright (c) 2002 Benedikt Meurer bmeurer@fwdn.de
+# Copyright (c) 2002 Benedikt Meurer benedikt.meurer@googlemail.com
 #
 %define name xsetleds
 %define version @VERSION@
@@ -19,7 +19,7 @@ Group: Application/Misc
 #Distribution:
 #Icon:
 #URL: http://www.fwdn.de/
-#Packager: Benedikt Meurer bmeurer@fwdn.de
+#Packager: Benedikt Meurer benedikt.meurer@googlemail.com
 
 # source + patches
 Source: %{name}-%{version}.tar.gz

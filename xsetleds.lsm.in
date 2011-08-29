@@ -12,8 +12,8 @@ Description:	xsetleds reports and changes the keyboard led states of  a
        tion.
 		
 Keywords:	keyboard leds X11 xsetleds setleds
-Author: 	bmeurer@fwdn.de (Benedikt Meurer)
-Maintained-by:	bmeurer@fwdn.de (Benedikt Meurer)
+Author: 	benedikt.meurer@googlemail.com (Benedikt Meurer)
+Maintained-by:	benedikt.meurer@googlemail.com (Benedikt Meurer)
 Primary-site:	www.fwdn.de projects/xsetleds/
 		31k xsetleds-@VERSION@.tar.gz
 		500  xsetleds.lsm
